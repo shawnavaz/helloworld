@@ -22,12 +22,12 @@
 		<repository>
 			<id>deployment</id>
 			<name>HelloWorld</name>
-			<url>http://52.3.242.232:8081/repository/KBC/</url>
+			<url>http://52.3.242.232:8081/repository/KBC</url>
 		<repository>
 	        <snapshotrepository>
 			<id>deployment</id>
 			<name>HelloWorld</name>
-			<url>http://52.3.242.232:8081/repository/KBC_Release//</url>
+			<url>http://52.3.242.232:8081/repository/KBC_Release</url>
 		</snapshotrepository>
   </distributionManagement>
 </project>
