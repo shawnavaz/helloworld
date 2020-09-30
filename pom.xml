@@ -18,4 +18,11 @@
   <build>
     <finalName>helloworld</finalName>
   </build>
+  <distributionManagement>
+		<repository>
+			<id>necus artifactory</id>
+			<name>Hello World</name>
+			<url>http://52.3.242.232:8081/repository/KBC/</url>
+		</repository>
+	</distributionManagement>
 </project>
