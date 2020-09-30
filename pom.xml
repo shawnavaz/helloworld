@@ -20,9 +20,14 @@
   </build>
   <distributionManagement>
 		<repository>
-			<id>necus artifactory</id>
+			<id>internal nexus artifactory</id>
 			<name>Hello World</name>
 			<url>http://52.3.242.232:8081/repository/KBC/</url>
+		</repository>
+	        <repository>
+			<id>nexus artifactory</id>
+			<name>Hello World</name>
+			<url>http://52.3.242.232:8081/repository/KBC_Release//</url>
 		</repository>
 	</distributionManagement>
 </project>
